@@ -3,7 +3,6 @@ package task1;
 import java.util.Scanner; //importing Scanner
 
 public class QuestionFive {
-
     // This method is to perform the calculations
     static void operations(double first_num, double second_num, char myOperator) {
 
