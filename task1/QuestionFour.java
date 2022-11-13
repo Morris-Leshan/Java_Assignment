@@ -26,11 +26,10 @@ public class QuestionFour {
         for (int i = 0; i <= mainList.size(); i++) {
             if (mainList.get(i) % 2 == 0) {
                 System.out.println(mainList.get(i));
-
-                if (i == 150 - 71) {
-                    break;
-                }
             }
+             if (i == 150 - 71) {
+                    break;
+             }
 
         }
     }
@@ -42,11 +41,10 @@ public class QuestionFour {
         for (int i = 0; i <= mainList.size(); i++) {
             if (mainList.get(i) % 3 == 0) {
                 System.out.println(mainList.get(i));
-
-                if (i == 150 - 71) {
-                    break;
-                }
             }
+             if (i == 150 - 71) {
+                    break;
+             }
 
         }
     }
@@ -58,12 +56,10 @@ public class QuestionFour {
         for (int i = 0; i <= mainList.size(); i++) {
             if (mainList.get(i) % 7 == 0) {
                 System.out.println(mainList.get(i));
-
-                if (i == 150 - 71) {
-                    break;
-                }
             }
-
+            if (i == 150 - 71) {
+                break;
+            }
         }
     }
 }
